@@ -10,7 +10,7 @@ pool: Azure Pipelines
 
 variables:
   solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
+  buildPlatform: 'ubuntu-latest'
   buildConfiguration: 'Release'
 
 steps:
